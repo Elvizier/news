@@ -12,7 +12,7 @@ app.listen(process.env.PORT || 3000, function(){
   console.log("the server is running on port 3000")
 });
 
-client.setConfig({apiKey: "84157cef2cc1f285997ef4cefcce608d",  server: "us13",});
+client.setConfig({apiKey: "a0b89ba1dd2d80a64e7846db9265b083",  server: "us13",});
 
 app.use(bodyParser.urlencoded({extended: true}))
 
